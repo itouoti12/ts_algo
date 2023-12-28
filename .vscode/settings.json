@@ -1,0 +1,22 @@
+{
+    "jestrunner.jestCommand": "npm run test",
+    "jestrunner.debugOptions": {
+        "program": "${workspaceRoot}/node_modules/vitest/vitest.mjs",
+        "env": {
+            "NODE_OPTIONS": ""
+        },
+        "protocol": "inspector",
+        "internalConsoleOptions": "neverOpen",
+        "skipFiles": [
+            "<node_internals>/**/*.js",
+            "node_modules/"
+        ],
+        "args": ["run", "${relativeFile}" ,"--threads"],
+        "sourcemaps": "inline",
+        "disableOptimisticBPs": true,
+    },
+    "jestrunner.jestPath":"",
+    "eslint.workingDirectories": [
+        "./"
+    ],
+}
