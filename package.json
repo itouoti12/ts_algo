@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/crypto-js": "^4.2.1",
     "jsdom": "^23.0.1",
     "vitest": "^1.1.0"
   },
@@ -12,6 +13,7 @@
   },
   "dependencies": {
     "@types/lodash": "^4.14.202",
+    "crypto-js": "^4.2.0",
     "lodash": "^4.17.21",
     "typescript": "^5.3.3"
   }
